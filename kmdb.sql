@@ -88,7 +88,209 @@ CREATE TABLE characters (
 
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
--- TODO!
+INSERT INTO movies (
+    movie_name,
+    year,
+    rating,
+    director
+)
+VALUES (
+    "Batman Begins",
+    "2005",
+    "PG-13",
+    "Christopher Nolan"
+);
+
+INSERT INTO movies (
+    movie_name,
+    year,
+    rating,
+    director
+)
+VALUES (
+    "The Dark Knight",
+    "2008",
+    "PG-13",
+    "Christopher Nolan"
+);
+
+INSERT INTO movies (
+    movie_name,
+    year,
+    rating,
+    director
+)
+VALUES (
+    "The Dark Knight Rises",
+    "2012",
+    "PG-13",
+    "Christopher Nolan"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    1,
+    "Christian Bale",
+    "Bruce Wayne"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    1,
+    "Michael Caine",
+    "Alfred"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    1,
+    "Liam Neeson",
+    "Ra's Al Ghul"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    1,
+    "Katie Holmes",
+    "Rachel Dawes"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    1,
+    "Gary Oldman",
+    "Commissioner Gordon"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    2,
+    "Christian Bale",
+    "Bruce Wayne"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    2,
+    "Heath Ledger",
+    "Joker"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    2,
+    "Aaron Eckhart",
+    "Harvey Dent"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    2,
+    "Michael Caine",
+    "Alfred"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    2,
+    "Maggie Gyllenhaal",
+    "Rachel Dawes"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    3,
+    "Christian Bale",
+    "Bruce Wayne"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    3,
+    "Gary Oldman",
+    "Commissioner Gordon"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    3,
+    "Tom Hardy",
+    "Bane"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    3,
+    "Joseph Gordon-Levitt",
+    "John Blake"
+);
+
+INSERT INTO characters (
+    movie_id,
+    actor,
+    character
+)
+VALUES (
+    3,
+    "Anne Hathaway",
+    "Selina Kyle"
+);
 
 -- Prints a header for the movies output
 .print "Movies"
